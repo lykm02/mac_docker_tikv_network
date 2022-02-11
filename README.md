@@ -1,10 +1,19 @@
 # mac_docker_tikv_network
+** label: mac macOS docker tikv network container **
+
+
 
 ### How Problem raise
 I need to require spark program using tikv on mac. So I build a local tikv envrionment using docker.
+#### tikv docker setup refs
+https://tikv.org/docs/3.0/tasks/try/docker-stack/
+
+
 The problem is I cannot ping to local tikv container IP, which cause connection timeout. The problem block the progress.
 
 After some search. I found some helpful solutions.
+
+### Solutions
 
 Solution 1: openvpn
 
